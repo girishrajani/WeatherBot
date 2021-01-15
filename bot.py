@@ -5,8 +5,7 @@ import json
 
 from discord import message
 
-apiKey = "" #API KEY 
-
+apiKey = "" #API KEY
 
 client = discord.Client()
 
