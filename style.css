@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+.heading{
+    background-color: dimgray;
+    padding: 30px;
+}
+.desc{
+    width: 450px;
+    padding: 20px;
+    background-color: dimgrey;
+    color: white;
+    border-radius: 20px;
+}
