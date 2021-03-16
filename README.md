@@ -30,4 +30,3 @@ You can add this bot to here Discord Server by Clicking <a href="https://discord
 
 You can add this bot to here Discord Server by Clicking <a href="https://discord.com/oauth2/authorize?client_id=799485174269739038&permissions=515136&scope=bot"> over here </a>
 
-Project By <a href="https://github.com/girishrajani/">Girish Rajani</a>
