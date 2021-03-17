@@ -1,40 +1,34 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Weather Bot</title>
         <script src="script.js"></script>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <link rel="shortcut icon" type="image/jpg" href="./Logo.png"/>
         <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/jpg" href="./Logo.png"/>
     </head>
-    
     <body>
-        <div class="heading">
-            <center>
-                <h1>
-                    Weather Bot
-                </h1>
-            </center>
-        </div>
-        <br><br>
         <center>
-            <img src="Logo.png" border=1>
-            <br><br><br><br>
-            <div class="desc">
-                <p>As the name suggests this is a Weather Bot.
-                    This bot can be used to get the Temperature or Weather Forcast of any city
-                    Click on the bellow Button To Add it to your Server.
-                </p>
+            <div class="heading">
+                <h1>Weather Bot</h1>
             </div>
-            <br><br><br><br>
-            <div>
-                <button type="button" class="btn btn-primary" onclick="discord()" />Add to your Server</button>    
-                <button type="button" class="btn btn-dark" onclick="github()">Star on GitHub</button>
+            <br><br>
+            <img src="Logo.png">
+            <br><br>
+            <div class="description">
+                <h3>As the name suggests this is a Weather Bot.
+                   This bot can be used to get the Temperature or Weather Forcast of any city
+                   Click on the bellow Button To Add it to your Server.
+                </h3>
             </div>
-            <br><br><br><br>
-            
-            Made By <a href="https://github.com/girishrajani">Girish Rajani</a>
-            <br><br><br><br>
-        </center>
+            <br><br>
 
+            <div>
+                <button type="button" onclick="discord()" class="b2">Add to your Server</button>    
+                <button type="button" onclick="github()" class="b1">Star on GitHub</button>
+                <button type="button" onclick="commands()" class="b3">Bot Commands</button>
+            </div>
+        </center>
+        
     </body>
 </html>

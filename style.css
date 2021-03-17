@@ -1,14 +1,45 @@
 body{
+    background-image: url('https://scx2.b-cdn.net/gfx/news/hires/2019/snowfall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.heading{
+    background-color:aqua;
+    padding: 5px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.description{
+    width: 40%;
+    padding: 10px;
+    background-color:plum;
+    color: black;
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+button{
+    /* background-color: palevioletred; */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 10;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.b1{
     background-color: black;
 }
-.heading{
-    background-color: dimgray;
-    padding: 30px;
+.b2{
+    background-color: blue;
 }
-.desc{
-    width: 450px;
-    padding: 20px;
-    background-color: dimgrey;
-    color: white;
-    border-radius: 20px;
+.b3{
+    background-color:blueviolet;
 }
