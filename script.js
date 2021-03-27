@@ -4,3 +4,6 @@ function discord(){
 function github(){
     window.location.href = 'https://github.com/girishrajani/WeatherBot';
 }
+function commands(){
+    window.location.href = 'https://github.com/girishrajani/WeatherBot#-commands-';
+}
